@@ -1,3 +1,87 @@
+root@docker:~/docker-nginx/html# history
+    1  clear
+    2  docker -v
+    3  apt-get update
+    4  curl -fsSL https://get.docker.com -o install-docker.sh
+    5  sudo sh install-docker.sh
+    6  docker ps
+    7  systemctl docket status
+    8  systemctl status docker
+    9  doscker ps
+   10  docker ps
+   11  docker -a
+   12  docker ps -a
+   13  docker images
+   14  docker pull ubuntu
+   15  docker images
+   16  docker run helloworld
+   17  docker run hello-world
+   18  docker image
+   19  docker images
+   20  docker pull centos:centos7.9.2009
+   21  docker pull alpine:3.22.4
+   22  docker images
+   23  docker ps -a
+   24  docker images
+   25  history
+   26  docker -v
+   27  docker -ps
+   28  docker - ps
+   29  docker ps
+   30  docker -a
+   31  docker ps -a
+   32  docker images
+   33  docker pull nginux
+   34  docker pull nginx
+   35  docker run nginx
+   36  docker run -p 80:80 nginx
+   37  docker run -d --name amaaaaan -p 80:80 nginx
+   38  mkdir -p ~/docker-nginx/html
+   39  cd ~/docker-nginx/html
+   40  vi index.html
+   41  docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
+   42  docker images
+   43  docker stop 6e23479198b9
+   44  docker rm -f 6e23479198b9
+   45  docker images
+   46  doscker ps -a
+   47  docker ps -a
+   48  docker rm -f 6d3f531213f1
+   49  docker imagesdocker ps
+   50  docker ps
+   51  docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
+   52  docker run --name docker-n -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
+   53  docker images
+   54  docker run -it ubuntu
+   55  docker ps -a
+   56  docker start 34178edb7a5c
+   57  docker ps -a
+   58  docker exec -it 34178edb7a5c /bash
+   59  docker exe -it 34178edb7a5c /bash
+   60  docker exec -it 34178edb7a5c /bin/bash
+   61  docker run alpine date
+   62  docker stats
+   63  for i in {1..30}; do docker run -d --rm alpine sleep 1000; done
+   64  docker ps -a
+   65  docker run -it -d -p 8080:8080 jenkins/jenkins:latest  - Jenkins
+   66  gcloud compute firewall-rules create allow-8080   --allow tcp:8080   --source-ranges=0.0.0.0/0   --description="Allow port 8080"
+   67  docker ps -a
+   68  docker start 7438ecc78912
+   69  docker ps -a
+   70  docker start 7438ecc78912
+   71  docker ps -a
+   72  clear
+   73  docker ps -a
+   74  sudo netstat -tulnp | grep 8080
+   75  clear
+   76  docker
+   77  docker ps -a
+   78  docker images
+   79  history
+
+
+================================
+
 #!/bin/sh
 set -e
 # Docker Engine for Linux installation script.
