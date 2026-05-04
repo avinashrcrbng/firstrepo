@@ -90,6 +90,22 @@ sudo apt update
 
 ================================
 
+04/05/2026 Dockerfile
+
+ cd avidev/
+  116  ls -lrt
+  117  cat Dockerfile 
+  118  docker build -t avinashrcr/avidev:v1 .
+  119  docker images
+  120  docker tag avinashrcr/avidev:v1 avinashrcr//avidev:latest
+  121  docker tag avinashrcr/avidev:v1 avinashrcr/avidev:latest
+  122  docker ps
+  123  docker images
+  124  docker push avinashrcr/avidev:latest
+  125  docker push avinashrcr/avidev:v1
+  126  docker run -d -p 8080:80 avinashrcr/avidev:v1
+==============================================
+
 #!/bin/sh
 set -e
 # Docker Engine for Linux installation script.
