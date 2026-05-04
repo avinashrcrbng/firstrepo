@@ -1,37 +1,16 @@
 root@docker:~/docker-nginx/html# history
     1  clear
-    2  docker -v
-    3  apt-get update
-    4  curl -fsSL https://get.docker.com -o install-docker.sh
-    5  sudo sh install-docker.sh
-    6  docker ps
-    7  systemctl docket status
-    8  systemctl status docker
-    9  doscker ps
-   10  docker ps
-   11  docker -a
-   12  docker ps -a
-   13  docker images
-   14  docker pull ubuntu
-   15  docker images
-   16  docker run helloworld
-   17  docker run hello-world
-   18  docker image
-   19  docker images
-   20  docker pull centos:centos7.9.2009
-   21  docker pull alpine:3.22.4
-   22  docker images
-   23  docker ps -a
-   24  docker images
-   25  history
-   26  docker -v
-   27  docker -ps
-   28  docker - ps
-   29  docker ps
-   30  docker -a
-   31  docker ps -a
-   32  docker images
-   33  docker pull nginux
+    2  docker -v --> TO get version
+    3  apt-get update -To update the pkg.
+    4  curl -fsSL https://get.docker.com -o install-docker.sh --> Get the docker image and store in the server.
+    5  sudo sh install-docker.sh  								--> Install the docker
+    6  docker ps 					 							--> list running Docker containers
+    8  systemctl status docker          
+   12  docker ps -a									--->Show All Containers (Running + Stopped)
+   13  docker images							-->It will show the images
+   14  docker pull ubuntu  						-->download the Ubuntu image from Docker Hub to your system.
+   20  docker pull centos:centos7.9.2009   ---> It will pull the the specified images from dockerhub
+   21  docker pull alpine:3.22.4			---->A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size
    34  docker pull nginx
    35  docker run nginx
    36  docker run -p 80:80 nginx
@@ -78,7 +57,36 @@ root@docker:~/docker-nginx/html# history
    77  docker ps -a
    78  docker images
    79  history
-
+=================================================================================
+sudo apt update
+    2  apt install docker.io -y
+    3  vi Dockerfile 
+    4  ls
+    5  docker build -t mynginxbatch43 .
+    6  docker images
+    7  docker login
+    8  docker login 
+    9  docker login
+   10  docker images
+   11  docker tag ec8ec649533a shahnawazkhan6963/mynginxbatch43:latest
+   12  docker images
+   13  docker push shahnawazkhan6963/mynginxbatch43:latest
+   14  Vikas from CloudDevOpsHub 8:47 AM
+   15  docker pull vikas4cloud/mynginxvaishali
+   16  docker ps
+   17  docker run -it -d ubuntu
+   18  docker ps
+   19  docker commit debf9f0bf282 shahnawazimage
+   20  docker images
+   21  docker save shahnawazimage:latest > khan.tar
+   22  ls
+   23  docker images
+   24  docker system df
+   25  docker system prune
+   26  docker system df
+   27  docker image prune -a
+   28  docker system df
+   29  docker images
 
 ================================
 
